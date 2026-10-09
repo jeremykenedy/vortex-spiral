@@ -69,10 +69,10 @@ Open Vortex Spiral from the TV launcher to change its settings. Options are save
 ## Screenshots
 
 <p align="center">
-    <img src="docs/screenshots/vortex-spiral-preview.png" alt="Glacial-blue spiral ribbons winding into a dark center" width="100%">
+    <img src="art/screenshots/vortex-spiral-preview.png" alt="Glacial-blue spiral ribbons winding into a dark center" width="100%">
 </p>
 
-<p align="center"><img src="docs/screenshots/settings-android-tv.png" alt="Remote-friendly Vortex Spiral settings" width="100%"></p>
+<p align="center"><img src="art/screenshots/settings-android-tv.png" alt="Remote-friendly Vortex Spiral settings" width="100%"></p>
 
 This 1920 by 1080 screenshot was captured from the running Vortex Spiral preview activity on an Android TV emulator. The in-app DreamService preview image is generated from the same running scene.
 
