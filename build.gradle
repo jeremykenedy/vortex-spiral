@@ -4,6 +4,8 @@ plugins {
     id 'com.diffplug.spotless' version '8.10.3'
 }
 
+layout.buildDirectory = layout.projectDirectory.dir('coverage/build')
+
 repositories { mavenCentral() }
 
 dependencies { testImplementation 'junit:junit:4.13.2' }
@@ -12,15 +14,15 @@ java { sourceCompatibility = JavaVersion.VERSION_1_8; targetCompatibility = Java
 
 sourceSets {
     main.java {
-        srcDirs = ['../src/com/jeremykenedy/vortexspiral']
+        srcDirs = ['src/com/jeremykenedy/vortexspiral']
         include 'VortexOptions.java', 'SettingsValues.java'
     }
-    test.java { srcDirs = ['../coverage-tests', '../tests'] }
+    test.java { srcDirs = ['coverage-tests', 'tests'] }
 }
 
 spotless {
     java {
-        target '../src/**/*.java', '../tests/**/*.java', '../coverage-tests/**/*.java'
+        target fileTree('src') { include '**/*.java' }, fileTree('tests') { include '**/*.java' }, fileTree('coverage-tests') { include '**/*.java' }
         googleJavaFormat('1.24.0')
     }
 }

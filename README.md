@@ -9,8 +9,8 @@
 <p align="center">Flowing luminous spiral ribbons for Fire TV, Android TV, and Google TV.</p>
 
 <p align="center">
-    <a href="https://github.com/jeremykenedy/vortex-spiral/releases"><img src="https://img.shields.io/github/v/release/jeremykenedy/vortex-spiral?label=latest%20release" alt="Latest release"></a>
     <a href="https://github.com/jeremykenedy/vortex-spiral/releases"><img src="https://img.shields.io/github/downloads/jeremykenedy/vortex-spiral/total" alt="GitHub release downloads"></a>
+    <a href="https://github.com/jeremykenedy/vortex-spiral/releases"><img src="https://img.shields.io/github/v/release/jeremykenedy/vortex-spiral?label=latest%20release" alt="Latest release"></a>
     <a href="https://github.com/jeremykenedy/vortex-spiral/actions/workflows/ci.yml"><img src="https://github.com/jeremykenedy/vortex-spiral/actions/workflows/ci.yml/badge.svg" alt="Build, tests, and coverage"></a>
     <a href="https://github.com/jeremykenedy/vortex-spiral/actions/workflows/style.yml"><img src="https://github.com/jeremykenedy/vortex-spiral/actions/workflows/style.yml/badge.svg" alt="Code style"></a>
     <a href="https://github.com/jeremykenedy/vortex-spiral/actions/workflows/docs.yml"><img src="https://github.com/jeremykenedy/vortex-spiral/actions/workflows/docs.yml/badge.svg" alt="Documentation checks"></a>
